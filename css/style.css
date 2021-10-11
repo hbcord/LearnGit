@@ -1,5 +1,6 @@
 :root {
     --primary: #EF7156;
+    --secondary:#EFEC56;
 }
 .conteiner {
     max-width: 1200px;
@@ -24,9 +25,18 @@
 .primary {
     background-color: var(--primary);
 }
+.secondary {
+    background-color: var(--secondary);
+}
 .white--text {
     color: white;
 }
 .decoration--none {
     text-decoration: none;
+}
+.content {
+    height: 300px;
+}
+.weight-bold {
+    font-weight: bold;
 }
