@@ -28,6 +28,9 @@
 .secondary {
     background-color: var(--secondary);
 }
+.blue {
+    background-color: blue;
+}
 .white--text {
     color: white;
 }
@@ -39,4 +42,11 @@
 }
 .weight-bold {
     font-weight: bold;
+}
+.align-center {
+    text-align: center;
+}
+.py-1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
