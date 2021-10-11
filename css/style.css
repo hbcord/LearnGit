@@ -1,0 +1,42 @@
+:root {
+    --primary: #EF7156;
+    --secondary:#EFEC56;
+}
+.conteiner {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.gap-1 {
+    gap: 4px;
+}
+.primary {
+    background-color: var(--primary);
+}
+.secondary {
+    background-color: var(--secondary);
+}
+.white--text {
+    color: white;
+}
+.decoration--none {
+    text-decoration: none;
+}
+.content {
+    height: 300px;
+}
+.weight-bold {
+    font-weight: bold;
+}
