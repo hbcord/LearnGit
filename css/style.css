@@ -1,0 +1,32 @@
+:root {
+    --primary: #EF7156;
+}
+.conteiner {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.gap-1 {
+    gap: 4px;
+}
+.primary {
+    background-color: var(--primary);
+}
+.white--text {
+    color: white;
+}
+.decoration--none {
+    text-decoration: none;
+}
